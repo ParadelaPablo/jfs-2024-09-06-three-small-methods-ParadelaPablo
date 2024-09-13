@@ -1,0 +1,25 @@
+name: Report
+on: [push]
+
+jobs:
+  build:
+    name: Report
+    runs-on: ubuntu-latest
+    # Permissions block is optional, useful for dependabot checks
+    permissions:
+      checks: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '18'
+      - name: Generate report
+        run: mvn site
+      - uses: jwgmeligmeyling/checkstyle-github-action@master
+        with:
+          path: '**/checkstyle-result.xml'
+      - uses: jwgmeligmeyling/pmd-github-action@master
+        with:
+          path: '**/pmd.xml'

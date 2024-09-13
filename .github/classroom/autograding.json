@@ -1,0 +1,104 @@
+{
+    "tests": [
+      {
+        "name": "isYoungShouldEvaluate30AsYoung",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#isYoungShouldEvaluate30AsYoung test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "isYoungShouldEvaluate99AsOld",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#isYoungShouldEvaluate99AsOld test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "isYoungShouldEvaluate1AsYoung",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#isYoungShouldEvaluate1AsYoung test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "hasLegalGenderManInSwedenShouldEvaluateToFemale",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#hasLegalGenderManInSwedenShouldEvaluateToFemale test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "hasLegalGenderManInSwedenShouldEvaluateToMale",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#hasLegalGenderManInSwedenShouldEvaluateToMale test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "firstTwoDigitIntegerShouldBe15",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#firstTwoDigitIntegerShouldBe15 test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "firstTwoDigitIntegerShouldBe12",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#firstTwoDigitIntegerShouldBe12 test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "firstTwoDigitIntegerShouldBeMinus1WhenThereAreNone",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#firstTwoDigitIntegerShouldBeMinus1WhenThereAreNone test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "firstTwoDigitIntegerShouldSkip3DigitNumbers",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#firstTwoDigitIntegerShouldSkip3DigitNumbers test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "firstTwoDigitIntegerShouldhandleNegativeNumbers",
+        "setup": "",
+        "run": "mvn -Dtest=ThreeSmallMethodsTest#firstTwoDigitIntegerShouldhandleNegativeNumbers test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      }
+    ]
+  }
