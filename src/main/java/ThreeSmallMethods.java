@@ -1,6 +1,6 @@
 public class ThreeSmallMethods {
 
-    public boolean isYoung(int age) {
+/*    public boolean isYoung(int age) {
 
         //   - Implement the method called `isYoung`
         //   - It takes one parameter `age` which you can assume always will be an int.
@@ -13,7 +13,7 @@ public class ThreeSmallMethods {
             return false;
         }
     }
-
+*/
     public boolean hasLegalGenderManInSweden(String personalNumber){
 
         //   - See the background information on PersonNummer below
@@ -24,15 +24,22 @@ public class ThreeSmallMethods {
         //   - You ONLY need to validate the second to last number and do not have to validate that it is a correctly formatted personnummer
 
 
-
-
-
-
-
+        if (personalNumber.length() == 10){
+            if(personalNumber.charAt(8) % 2 != 0){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        else{
         return false;
+        }
     }
 
-    public int firstTwoDigitInteger(int[] numbers) {
+    }
+
+  public int firstTwoDigitInteger(int[] numbers) {
 
 
         //   - Implement the method called `firstTwoDigitInteger`
@@ -44,6 +51,7 @@ public class ThreeSmallMethods {
 
 
 
+
         return -1;
     }
-}
+
