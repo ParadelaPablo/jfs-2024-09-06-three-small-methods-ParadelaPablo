@@ -91,3 +91,4 @@ Am I supposed to throw exceptions?
 Do I have to use a normal `for` loop in the `firstTwoDigitInteger` task?
 
 > Yes, in this test that's what we want you to use.
+# jfs-2024-09-06-three-small-methods-ParadelaPablo
